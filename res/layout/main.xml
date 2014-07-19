@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView android:id="@+id/scrollView01"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:fillViewport="true"
+	android:layout_alignParentTop="true"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	    
+	    <LinearLayout
+			android:id="@+id/linear" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:focusable="true"
+			android:focusableInTouchMode="true">
+
+
+		    <EditText
+	            android:hint="@string/paste"
+	            android:id="@+id/content"
+	         	android:inputType="textMultiLine"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:maxLength="200000"
+	            />	
+		    
+		   	<Spinner 
+				android:id="@+id/lexer" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:prompt="@string/lexer"
+				android:entries="@array/lexers"
+				/>
+		  
+
+			<LinearLayout 
+			    android:id="@+id/LinearLayout03" 
+			    android:layout_height="wrap_content" 
+			    android:layout_width="fill_parent" >
+			    
+			    <TextView 
+			        android:id="@+id/ttlText" 
+			        android:layout_width="wrap_content" 
+			        android:layout_height="wrap_content" 
+			        android:layout_weight="1"
+			        android:textSize="20sp" 
+			        android:text="@string/ttl">
+			    </TextView>
+									
+			   	<Spinner 
+					android:id="@+id/ttl" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:prompt="@string/ttl"
+					android:entries="@array/ttl"
+					android:layout_weight="1"
+					android:scrollbarAlwaysDrawVerticalTrack="true"
+					/>		    
+				</LinearLayout>
+	
+			
+		
+			<LinearLayout 
+			    android:id="@+id/LinearLayout02" 
+			    android:layout_height="wrap_content" 
+			    android:layout_width="fill_parent" >
+			    
+			    <TextView 
+			        android:id="@+id/encText" 
+			        android:layout_width="wrap_content" 
+			        android:layout_height="wrap_content" 
+			        android:textSize="20sp"
+			        android:layout_weight="1"
+			        android:text="@string/encrypt">
+			    </TextView>
+									
+				<CheckBox
+					android:id="@+id/encrypt"
+					android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_weight="1"/>			    
+				</LinearLayout>
+	
+		
+		    <EditText
+		        android:hint="@string/password"
+		        android:inputType="textMultiLine|textPassword"
+		        android:id="@+id/password"
+		        android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	           	android:maxLength="50"
+	            />
+
+			<Button
+				android:id="@+id/submit"
+				android:text="@string/paste"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"/>
+
+	</LinearLayout> 
+	    
+</ScrollView>	

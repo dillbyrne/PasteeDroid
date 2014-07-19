@@ -1,0 +1,38 @@
+License Information
+
+Pastee Droid is free software and the source code is released under the GPL3+ licence. The source is available at  https://github.com/dillbyrne/PasteeDroid
+
+The Pastee Droid Logo is a modification based on work created and shared by Google and used according to terms described in the Creative Commons 3.0 Attribution License. Original can be found at http://www.android.com/developers/branding.html
+
+The "Pastee" name is copyrighted by Pastee
+
+
+Pastee Droid is an Android client for "the secure pastebin" Pastee!
+
+If you wish to donate you can do so using bitcoin
+1L44pgmZpeMsWsd24WgN6SJjEUARG5eY6G
+
+
+Supports Paste encryption. If encryption is selected pastes are encrypted server side (AES-256) with a password. A SHA-256 hash of the password is stored in the database, not the passphrase itself, which helps ensure that only those who know the password will be able to view the content of your paste. All traffic is sent over SSL
+
+Supports over 100 languages. Languages are listed in order of common (C, Java , Text Only, etc) , other (ActionScript, Debian Source File, etc ) and combo (XML+Ruby , HTML+Django/jinja, etc) .
+
+Supports pastes of up to 200,000 characters
+
+Pastes are not listed. Pastee assures users that it will never list or index your pastes for any reason. Privacy and security are essential to Pastee.
+
+Paste IDs are carefully chosen , this makes them less susceptible to crawling bots. Paste ID's are short and easy to remember if you must.
+
+Pastee Droid supports sharing of pastes via various apps such as twitter , text message , email etc.
+
+
+Pastee Droid also supports URL-shortening . Just paste a URL and it will be shortened .
+
+
+Pastes have reasonable expire times. An hour , a day , a week , a month and a year.
+
+
+For more information on Pastee see https://pastee.org/about
+
+For bug reports see https://github.com/dillbyrne/PasteeDroid/issues
+

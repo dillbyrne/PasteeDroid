@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Pastee Droid</string>
+    <string name="paste">Paste</string>
+    <string name="lexer">Lexer</string>
+    <string name="ttl">Time to live : </string>
+    <string name="password">Password</string>
+    <string name="encrypt"> Encrypt with Password ?</string>
+    <string name="copy">Copy URL</string>
+    <string name="loading">Loading</string>
+    <string name="share">Share</string>
+    <string name="quit">Return to previous screen </string>
+    <string name="about">About</string>
+    <string name="more">More from Developer</string>
+    
+    <!-- Lexer Names -->
+
+	<!-- Common Lexer codes and their strings below them  -->
+	<string name="C1">c</string>
+	<string name="C">C</string>
+	
+    <string name="Csharp1">csharp</string>
+    <string name="Csharp">C#</string>
+    
+    <string name="Cplusplus1">cpp</string>
+    <string name="Cplusplus">C++</string>
+    
+    
+    <string name="CSS1">css</string>
+    <string name="CSS">CSS</string>
+    
+    
+    <string name="Diff1">diff</string>
+    <string name="Diff">Diff</string>
+    
+    
+    <string name="HTML1">html</string>
+    <string name="HTML">HTML</string>
+    
+    
+    <string name="Java1">java</string>
+    <string name="Java">Java</string>
+    
+    
+    <string name="JavaScript1">js</string>
+    <string name="JavaScript">JavaScript</string>
+
+    <string name="ObjectiveC1">objective-c</string>
+    <string name="ObjectiveC">Objective-C</string>
+
+    <string name="PHP1">php</string>
+    <string name="PHP">PHP</string>
+
+    <string name="Perl1">perl</string>
+    <string name="Perl">Perl</string>
+
+	<string name="Python1">python</string>
+    <string name="Python">Python</string>
+    
+    <string name="Ruby1">rb</string>
+	<string name="Ruby">Ruby</string>
+    
+    <string name="SQL1">sql</string>
+    <string name="SQL">SQL</string>
+
+    <string name="TeX1">tex</string>
+    <string name="TeX">TeX</string>
+    
+    <string name="TextOnly1">text</string>
+    <string name="TextOnly">Text Only</string>
+    
+    <string name="XML1">xml</string>
+    <string name="XML">XML</string>
+    
+    
+    <!-- Other Lexer codes and their strings below them -->
+     
+    <string name="ActionScript1">as</string>
+    <string name="ActionScript">ActionScript</string>
+    
+    <string name="ApacheConf1">apacheconf</string>
+    <string name="ApacheConf">Apache Conf</string>
+    
+    <string name="BBCode1">bbcode</string>
+    <string name="BBCode">BBCode</string>
+    
+    <string name="Bash1">bash</string>
+    <string name="Bash">Bash</string>
+    
+    <string name="Batchfile1">bat</string>
+    <string name="Batchfile">Batchfile</string>
+    
+    <string name="Befunge1">befunge</string>
+    <string name="Befunge">Befunge</string>
+    
+    <string name="Boo1">boo</string>
+    <string name="Boo">Boo</string>
+    
+    <string name="Brainfuck1">brainfuck</string>
+    <string name="Brainfuck">Brainfuck</string>
+    
+    <string name="Common_Lisp1">common-lisp</string>
+    <string name="Common_Lisp">Common Lisp</string>
+    
+    <string name="D1">d</string>
+    <string name="D">D</string>
+    
+    <string name="Darcs_Patch1">dpatch</string>
+    <string name="Darcs_Patch">Darcs Patch</string>
+    
+    <string name="Debian_Control_file1">control</string>
+    <string name="Debian_Control_file">Debian Control file</string>
+    
+    
+    <string name="Debian_Sourcelist1">sourceslist</string>
+    <string name="Debian_Sourcelist">Debian Sourcelist</string>
+    
+    <string name="Delphi1">delphi</string>
+    <string name="Delphi">Delphi</string>
+    
+    
+    <string name="Django_Jinja1">django</string>
+    <string name="Django_Jinja">Django/Jinja</string>
+    
+    <string name="Dylan1">dylan</string>
+    <string name="Dylan">Dylan</string>
+    
+    <string name="ERB1">erb</string>
+    <string name="ERB">ERB</string>
+    
+    
+    <string name="Erlang1">erlang</string>
+    <string name="Erlang">Erlang</string>
+    
+    <string name="Fortran1">fortran</string>
+    <string name="Fortran">Fortran</string>
+    
+    <string name="GAS1">gas</string>
+    <string name="GAS">GAS</string>
+    
+    <string name="Genshi1">genshi</string>
+    <string name="Genshi">Genshi</string>
+    
+    <string name="Genshi_Text1">genshitext</string>
+    <string name="Genshi_Text">Genshi Text</string>
+    
+    <string name="Gettext_Catalog1">pot</string>
+    <string name="Gettext_Catalog">Gettext catalog</string>
+    
+    <string name="Groff1">groff</string>
+    <string name="Groff">Groff</string>
+
+    <string name="Haskell1">haskell</string>
+    <string name="Haskell">Haskell</string>
+    
+    <string name="INI1">ini</string>
+    <string name="INI">INI</string>
+    
+    <string name="IRC_logs1">irc</string>
+    <string name="IRC_logs">IRC Logs</string>
+    
+    <string name="Io1">io</string>
+    <string name="Io">Io</string>
+    
+    <string name="Java_Server_Page1">jsp</string>
+    <string name="Java_Server_Page">Java Server Page</string>
+    
+    <string name="LLVM1">llvm</string>
+    <string name="LLVM">LLVM</string>
+    
+    <string name="Literate_Haskell1">lhs</string>
+    <string name="Literate_Haskell">Literate Haskell</string>
+    
+    <string name="Logtalk1">logtalk</string>
+    <string name="Logtalk">Logtalk</string>
+    
+    <string name="Lua1">lua</string>
+    <string name="Lua">Lua</string>
+    
+    <string name="MOOCode1">moocode</string>
+    <string name="MOOCode">MOOCode</string>
+    
+    <string name="Makefile1">basemake</string>
+    <string name="Makefile">Makefile</string>
+
+    <string name="Mako1">mako</string>
+    <string name="Mako">Mako</string>
+
+    <string name="Matlab1">matlab</string>
+    <string name="Matlab">Matlab</string>
+
+    <string name="Matlab_Session1">matlabsession</string>
+    <string name="Matlab_Session">Matlab Session</string>
+
+    <string name="MiniD1">minid</string>
+    <string name="MiniD">MiniD</string>
+    
+    <string name="MoinMoin_Trac_Wiki_markup1">trac-wiki</string>
+    <string name="MoinMoin_Trac_Wiki_markup">MoinMoin/Trac Wiki markup</string>
+    
+    <string name="MuPAD1">mupad</string>
+    <string name="MuPAD">MuPAD</string>
+    
+    <string name="mySQL1">mysql</string>
+    <string name="mySQL">mySQL</string>
+    
+    <string name="Myghty1">myghty</string>
+    <string name="Myghty">Myghty</string>
+    
+    <string name="NumPy1">numpy</string>
+    <string name="NumPy">NumPy</string>
+    
+    <string name="OCaml1">ocaml</string>
+    <string name="OCaml">OCaml</string>
+    
+    <string name="Python_31">python3</string>
+    <string name="Python_3">Python 3</string>
+    
+    <string name="Python_Traceback1">pytb</string>
+    <string name="Python_Traceback">Python Traceback</string>
+    
+    <string name="Python_console_session1">pycon</string>
+    <string name="Python_console_session">Python console session</string>
+    
+    <string name="RHTML1">rhtml</string>
+    <string name="RHTML">RHTML</string>
+    
+    <string name="Raw_token_data1">raw</string>
+    <string name="Raw_token_data">Raw token data</string>
+    
+    <string name="Redcode1">redcode</string>
+    <string name="Redcode">Redcode</string>
+    
+    <string name="Ruby_irb_session1">rbcon</string>
+    <string name="Ruby_irb_session">Ruby irb session</string>
+    
+    <string name="S1">splus</string>
+    <string name="S">S</string>
+    
+    
+    <string name="Scheme1">scheme</string>
+    <string name="Scheme">Scheme</string>
+    
+    <string name="Smalltalk1">smalltalk</string>
+    <string name="Smalltalk">Smalltalk</string>
+    
+    <string name="Smarty1">smarty</string>
+    <string name="Smarty">Smarty</string>
+    
+    <string name="SquidConf1">squidconf</string>
+    <string name="SquidConf">Squid Conf</string>
+    
+    <string name="Tcl1">tcl</string>
+    <string name="Tcl">Tcl</string>
+
+    <string name="Tcsh1">tcsh</string>
+    <string name="Tcsh">Tcsh</string>
+
+    <string name="VB.net1">vb.net</string>
+    <string name="VB.net">VB.net</string>
+
+    <string name="VimL1">vim</string>
+    <string name="VimL">VimL</string>
+    
+    <string name="XSLT1">xslt</string>
+    <string name="XSLT">XSLT</string>
+
+    <string name="c_objdump1">c-objdump</string>
+    <string name="c_objdump">C-Objdump</string>
+
+    <string name="cpp_objdump1">cpp-objdump</string>
+    <string name="cpp_objdump">CPP-Objdump</string>
+
+    <string name="d_objdump1">d-objdump</string>
+    <string name="d_objdump">D-Objdump</string>
+    
+    <string name="objdump1">objdump</string>
+    <string name="objdump">Objdump</string>
+    
+    <string name="reStructuredText1">rst</string>
+    <string name="reStructuredText">reStructuredText</string>
+    
+    
+    <!-- Combo Lexers  -->
+ 
+    <string name="CSS_Django_Jinja1">css+django</string>
+    <string name="CSS_Django_Jinja">CSS+Django/Jinja</string>
+    
+    <string name="CSS_Genshi_Text1">css+genshitext</string>
+    <string name="CSS_Genshi_Text">CSS+Genshi Text</string>
+    
+    <string name="CSS_Mako1">css+mako</string>
+    <string name="CSS_Mako">CSS+Mako</string>
+    
+    <string name="CSS_Myghty1">css+myghty</string>
+    <string name="CSS_Myghty">CSS+Myghty</string>
+
+    <string name="CSS_PHP1">css+php</string>
+    <string name="CSS_PHP">CSS+PHP</string>
+    
+    <string name="CSS_Ruby1">css+erb</string>
+    <string name="CSS_Ruby">CSS+Ruby</string>
+    
+    <string name="CSS_Smarty1">css+smarty</string>
+    <string name="CSS_Smarty">CSS+Smarty</string>
+    
+    <string name="HTML_Django_Jinja1">html+django</string>
+    <string name="HTML_Django_Jinja">HTML+Django/Jinja</string>
+    
+    <string name="HTML_Genshi1">html+genshi</string>
+   	<string name="HTML_Genshi">HTML+Genshi</string>
+    
+    <string name="HTML_Mako1">html+mako</string>
+    <string name="HTML_Mako">HTML+Mako</string>
+    
+    <string name="HTML_Myghty1">html+myghty</string>
+    <string name="HTML_Myghty">HTML+Myghty</string>
+    
+    <string name="HTML_PHP1">html+php</string>
+    <string name="HTML_PHP">HTML+PHP</string>
+    
+    <string name="HTML_Smarty1">html+smarty</string>
+    <string name="HTML_Smarty">HTML+Smarty</string>
+    
+	<string name="JavaScript_Django_Jinja1">js+django</string>
+	<string name="JavaScript_Django_Jinja">JavaScript+Django/Jinja</string>
+	
+    <string name="JavaScript_Genshi_Text1">js+genshitext</string>
+    <string name="JavaScript_Genshi_Text">JavaScript+Genshi Text</string>
+    
+    <string name="JavaScript_Mako1">js+mako</string>
+    <string name="JavaScript_Mako">JavaScript+Mako</string>
+    
+    <string name="JavaScript_Myghty1">js+myghty</string>
+    <string name="JavaScript_Myghty">JavaScript+Myghty</string>
+
+    <string name="JavaScript_PHP1">js+php</string>
+    <string name="JavaScript_PHP">JavaScript+PHP</string>
+    
+    <string name="JavaScript_Ruby1">js+erb</string>
+    <string name="JavaScript_Ruby">JavaScript+Ruby</string>
+    
+    <string name="JavaScript_Smarty1">js+smarty</string>
+    <string name="JavaScript_Smarty">JavaScript+Smarty</string>
+    
+    <string name="XML_Django_Jinja1">xml+django</string>
+    <string name="XML_Django_Jinja">XML+Django/Jinja</string>
+
+    <string name="XML_Mako1">xml+mako</string>
+    <string name="XML_Mako">XML+Mako</string>
+    
+    <string name="XML_Myghty1">xml+myghty</string>
+    <string name="XML_Myghty">XML+Myghty</string>
+    
+    <string name="XML_PHP1">xml+php</string>
+    <string name="XML_PHP">XML+PHP</string>
+    
+    <string name="XML_Ruby1">xml+erb</string>
+    <string name="XML_Ruby">XML+Ruby</string>
+    
+    <string name="XML_Smarty1">xml+smarty</string>
+    <string name="XML_Smarty">XML+Smarty</string>
+    
+
+	<!-- Time To Live  -->
+	
+    <string name="hour">an hour</string>
+    <string name="day">a day</string>
+    <string name="week">a week</string>
+    <string name="month">a month</string>
+    <string name="year">a year</string>
+
+
+	<!-- String Arrays -->
+	
+	<!-- String array for lexers-->
+
+	<string-array name="lexers">
+		<item name="C" type="string">@string/C</item>
+		<item name="Csharp" type="string">@string/Csharp</item>
+		<item name="Cplusplus" type="string">@string/Cplusplus</item>
+		<item name="CSS" type="string">@string/CSS</item>
+	    <item name="Diff" type="string">@string/Diff</item>
+		<item name="HTML" type="string">@string/HTML</item>
+		<item name="Java" type="string">@string/Java</item>
+		<item name="JavaScript" type="string">@string/JavaScript</item>
+		<item name="ObjectiveC" type="string">@string/ObjectiveC</item>
+	    <item name="PHP" type="string">@string/PHP</item>
+		<item name="Perl" type="string">@string/Perl</item>
+		<item name="Python" type="string">@string/Python</item>
+		<item name="Ruby" type="string">@string/Ruby</item>
+		<item name="SQL" type="string">@string/SQL</item>
+	    <item name="TeX" type="string">@string/TeX</item>
+		<item name="TextOnly" type="string">@string/TextOnly</item>
+		<item name="XML" type="string">@string/XML</item>	
+		    
+	    <!-- Other Lexers -->
+	    
+	    <item name="ActionScript" type="string">@string/ActionScript</item>
+	    <item name="ApacheConf" type="string">@string/ApacheConf</item>
+	    <item name="BBCode" type="string">@string/BBCode</item>
+	    <item name="Bash" type="string">@string/Bash</item>
+	    <item name="Batchfile" type="string">@string/Batchfile</item>
+	    <item name="Befunge" type="string">@string/Befunge</item>
+	    <item name="Boo" type="string">@string/Boo</item>
+	    <item name="Brainfuck" type="string">@string/Brainfuck</item>
+	    <item name="Common_Lisp" type="string">@string/Common_Lisp</item>
+	    <item name="D" type="string">@string/D</item>
+	    <item name="Darcs_Patch" type="string">@string/Darcs_Patch</item>
+	    <item name="Debian_Control_file" type="string">@string/Debian_Control_file</item>
+	    <item name="Debian_Sourcelist" type="string">@string/Debian_Sourcelist</item>
+	    <item name="Delphi" type="string">@string/Delphi</item>
+	    <item name="Django_Jinja" type="string">@string/Django_Jinja</item>
+	    <item name="Dylan" type="string">@string/Dylan</item>
+	    <item name="ERB" type="string">@string/ERB</item>
+	    <item name="Erlang" type="string">@string/Erlang</item>
+	    <item name="Fortran" type="string">@string/Fortran</item>
+	    <item name="GAS" type="string">@string/GAS</item>
+	    <item name="Genshi" type="string">@string/Genshi</item>
+	    <item name="Genshi_Text" type="string">@string/Genshi_Text</item>
+	    <item name="Gettext_Catalog" type="string">@string/Gettext_Catalog</item>
+	    <item name="Groff" type="string">@string/Groff</item>
+	    <item name="Haskell" type="string">@string/Haskell</item>
+	    <item name="INI" type="string">@string/INI</item>
+	    <item name="IRC_logs" type="string">@string/IRC_logs</item>
+	    <item name="Io" type="string">Io</item>
+	    <item name="Java_Server_Page" type="string">@string/Java_Server_Page</item>
+	    <item name="LLVM" type="string">@string/LLVM</item>
+	    <item name="Literate_Haskell" type="string">@string/Literate_Haskell</item>
+	    <item name="Logtalk" type="string">@string/Logtalk</item>
+	    <item name="Lua" type="string">@string/Lua</item>
+	    <item name="MOOCode" type="string">@string/MOOCode</item>
+	    <item name="Makefile" type="string">@string/Makefile</item>
+	    <item name="Mako" type="string">@string/Mako</item>
+	    <item name="Matlab" type="string">@string/Matlab</item>
+	    <item name="Matlab_Session" type="string">@string/Matlab_Session</item>
+	    <item name="MiniD" type="string">@string/MiniD</item>
+	    <item name="MoinMoin_Trac_Wiki_markup" type="string">@string/MoinMoin_Trac_Wiki_markup</item>
+	    <item name="MuPAD" type="string">@string/MuPAD</item>
+	    <item name="mySQL" type="string">@string/mySQL</item>
+	    <item name="Myghty" type="string">@string/Myghty</item>
+	    <item name="NumPy" type="string">@string/NumPy</item>
+	    <item name="OCaml" type="string">@string/OCaml</item>
+	    <item name="Python_3" type="string">@string/Python_3</item>
+	    <item name="Python_Traceback" type="string">@string/Python_Traceback</item>
+	    <item name="Python_console_session" type="string">@string/Python_console_session</item>
+	    <item name="RHTML" type="string">@string/RHTML</item>
+	    <item name="Raw_token_data" type="string">@string/Raw_token_data</item>
+	    <item name="Redcode" type="string">@string/Redcode</item>
+	    <item name="Ruby_irb_session" type="string">@string/Ruby_irb_session</item>
+	    <item name="S" type="string">@string/S</item>
+	    <item name="Scheme" type="string">@string/Scheme</item>
+	    <item name="Smalltalk" type="string">@string/Smalltalk</item>
+	    <item name="Smarty" type="string">@string/Smarty</item>
+	    <item name="SquidConf" type="string">@string/SquidConf</item>
+	    <item name="Tcl" type="string">@string/Tcl</item>
+	    <item name="Tcsh" type="string">@string/Tcsh</item>
+	    <item name="VB.net" type="string">@string/VB.net</item>
+	    <item name="VimL" type="string">@string/VimL</item>
+	    <item name="XSLT" type="string">@string/XSLT</item>
+	    <item name="c_objdump" type="string">@string/c_objdump</item>
+	    <item name="cpp_objdump" type="string">@string/cpp_objdump</item>
+	    <item name="d_objdump" type="string">@string/d_objdump</item>
+	    <item name="objdump" type="string">@string/objdump</item>
+	    <item name="reStructuredText" type="string">reStructuredText</item>
+	    
+	    <!-- Combo Lexers  -->
+	 
+	    <item name="CSS_Django_Jinja" type="string">@string/CSS_Django_Jinja</item>
+	    <item name="CSS_Genshi_Text" type="string">@string/CSS_Genshi_Text</item>
+	    <item name="CSS_Mako" type="string">@string/CSS_Mako</item>
+	    <item name="CSS_Myghty" type="string">@string/CSS_Myghty</item>
+	    <item name="CSS_PHP" type="string">@string/CSS_PHP</item>
+	    <item name="CSS_Ruby" type="string">@string/CSS_Ruby</item>
+	    <item name="CSS_Smarty" type="string">@string/CSS_Smarty</item>
+	    <item name="HTML_Django_Jinja" type="string">@string/HTML_Django_Jinja</item>
+	    <item name="HTML_Genshi" type="string">@string/HTML_Genshi</item>
+	    <item name="HTML_Mako" type="string">@string/HTML_Mako</item>
+	    <item name="HTML_Myghty" type="string">@string/HTML_Myghty</item>
+	    <item name="HTML_PHP" type="string">@string/HTML_PHP</item>
+	    <item name="HTML_Smarty" type="string">@string/HTML_Smarty</item>
+	    <item name="JavaScript_Django_Jinja" type="string">@string/JavaScript_Django_Jinja</item>
+	    <item name="JavaScript_Genshi_Text" type="string">@string/JavaScript_Genshi_Text</item>
+	    <item name="JavaScript_Mako" type="string">@string/JavaScript_Mako</item>
+	    <item name="JavaScript_Myghty" type="string">@string/JavaScript_Myghty</item>
+	    <item name="JavaScript_PHP" type="string">@string/JavaScript_PHP</item>
+	    <item name="JavaScript_Ruby" type="string">@string/JavaScript_Ruby</item>
+	    <item name="JavaScript_Smarty" type="string">@string/JavaScript_Smarty</item>
+	    <item name="XML_Django_Jinja" type="string">@string/XML_Django_Jinja</item>
+	    <item name="XML_Mako" type="string">@string/XML_Mako</item>
+	    <item name="XML_Myghty" type="string">@string/XML_Myghty</item>
+	    <item name="XML_PHP" type="string">@string/XML_PHP</item>
+	    <item name="XML_Ruby" type="string">@string/XML_Ruby</item>
+	    <item name="XML_Smarty" type="string">@string/XML_Smarty</item>
+		
+	</string-array>
+	
+	<string-array name="ttl">
+		<item name ="hour" type="String">@string/hour</item> 
+		<item name ="day" type="String">@string/day</item> 
+		<item name ="week" type="String">@string/week</item> 
+		<item name ="month" type="String">@string/month</item> 
+		<item name ="year" type="String">@string/year</item> 
+	</string-array>
+    
+	
+</resources>
