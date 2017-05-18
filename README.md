@@ -1,6 +1,9 @@
 PasteeDroid
 ===========
 
+### As of 2016 the Pastee.org service has been discontinued. 
+
+
 Android Client for https://pastee.org
 
 For more information on Pastee see https://pastee.org/about
